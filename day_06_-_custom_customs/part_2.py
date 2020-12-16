@@ -13,7 +13,6 @@ def solution(elements):
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = f.read().split('\n\n')
-	print(inputs[0])
 	print(solution(inputs))
 
 if __name__ == '__main__':
