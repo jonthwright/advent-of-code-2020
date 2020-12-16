@@ -22,8 +22,8 @@ def process_inputs(inputs):
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = f.readlines()
-		processed = process_inputs(inputs)
-		print(solution(processed))
+	processed = process_inputs(inputs)
+	print(solution(processed))
 
 if __name__ == '__main__':
 	main()

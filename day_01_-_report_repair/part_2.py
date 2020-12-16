@@ -20,7 +20,7 @@ def solution(elements):
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = [int(line) for line in f.readlines()]
-		print(solution(inputs))
+	print(solution(inputs))
 
 if __name__ == '__main__':
 	main()
