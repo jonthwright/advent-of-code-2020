@@ -1,18 +1,16 @@
-def diff(x):
-	return x[0] - x[1]
+from collections import Counter
 
 def solution(inputs):
 	jolts = sorted(inputs)
 	jolts.append(jolts[-1] + 3)
 
-	last_jolt = 0
-	diffs = [0, 0, 0, 0]
+	dp = Counter()
+	dp[0] = 1
 
 	for jolt in jolts:
-		diffs[jolt - last_jolt] += 1
-		last_jolt = jolt
+		dp[jolt] = dp[jolt - 1] + dp[jolt - 2] + dp[jolt - 3]
 
-	return diffs[1] * diffs[3]
+	return dp[jolts[-1]]
 
 def main():
 	with open('input_file.txt', 'r') as f:
