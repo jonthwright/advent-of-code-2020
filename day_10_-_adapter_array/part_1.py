@@ -1,8 +1,8 @@
 def diff(x):
 	return x[0] - x[1]
 
-def solution(inputs):
-	jolts = sorted(inputs)
+def solution(elements):
+	jolts = sorted(elements)
 	jolts.append(jolts[-1] + 3)
 
 	last_jolt = 0
@@ -17,7 +17,7 @@ def solution(inputs):
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = [int(e) for e in f.read().strip().splitlines()]
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

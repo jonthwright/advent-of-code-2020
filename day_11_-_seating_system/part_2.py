@@ -37,8 +37,8 @@ def solution(chairs):
 
 def main():	
 	with open('input_file.txt', 'r') as f:
-		chairs = [e for e in f.read().strip().splitlines()]
-	print(solution(chairs))
+		inputs = [e for e in f.read().strip().splitlines()]
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

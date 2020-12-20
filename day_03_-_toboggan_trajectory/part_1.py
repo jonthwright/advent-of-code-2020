@@ -14,9 +14,9 @@ def process_inputs(inputs):
 
 def main():
 	with open('input_file.txt', 'r') as f:
-		inputs = f.read().strip().splitlines()
-	proccesed = process_inputs(inputs)
-	print(solution(proccesed))
+		inputs = f.readlines()
+	processed = process_inputs(inputs)
+	print(f'Answer : {solution(processed)}')
 
 if __name__ == '__main__':
 	main()

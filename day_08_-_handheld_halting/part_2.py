@@ -1,7 +1,7 @@
 class console:
-	def __init__(self, puzzle_input):
+	def __init__(self, inputs):
 		self.acc = 0
-		self.prog = [(line.split(' ')[0], int(line.split(' ')[1])) for line in puzzle_input]
+		self.prog = [(line.split(' ')[0], int(line.split(' ')[1])) for line in inputs]
 		self.eip = 0
 		self.executed_insts = set()
 
@@ -21,28 +21,28 @@ class console:
 			if self.eip == len(self.prog):
 				return 0
 
-def solution(inputs):
-	cons = console(inputs)
+def solution(elements):
+	cons = console(elements)
 	cons.run()
 
-	for i in range(len(inputs)):
-		if 'acc' in inputs[i]:
+	for i in range(len(elements)):
+		if 'acc' in elements[i]:
 			continue
-		elif 'jmp' in inputs[i]:
-			mod = inputs[i].replace('jmp', 'nop')
-		elif 'nop' in inputs[i]:
-			mod = inputs[i].replace('nop', 'jmp')
+		elif 'jmp' in elements[i]:
+			mod = elements[i].replace('jmp', 'nop')
+		elif 'nop' in elements[i]:
+			mod = elements[i].replace('nop', 'jmp')
 		else:
 			raise ValueError(f'Invalid op code: [{cons.eip}] {cons.prog}')
 		
-		cons = console(inputs[:i] + [mod] + inputs[i + 1:])
+		cons = console(elements[:i] + [mod] + elements[i + 1:])
 		if cons.run() == 0:
 			return cons.acc
 
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = f.read().strip().splitlines()
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

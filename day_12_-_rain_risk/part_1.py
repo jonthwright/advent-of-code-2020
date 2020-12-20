@@ -1,10 +1,10 @@
 import math
 
-def solution(inputs):
+def solution(elements):
 	direction = 90
 	x, y = 0, 0
 	
-	for cmd in inputs:
+	for cmd in elements:
 		instruction, units = cmd[0], int(cmd[1:	])
 		if instruction == 'N':
 			y += units
@@ -29,7 +29,7 @@ def solution(inputs):
 def main():	
 	with open('input_file.txt', 'r') as f:
 		inputs = [e for e in f.read().strip().splitlines()]
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

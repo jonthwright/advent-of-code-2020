@@ -1,8 +1,8 @@
-def solution(inputs):
-	start = int(inputs[0])
-	buses = [int(bus) for bus in inputs[1].split(',') if bus != 'x']
+def solution(elements):
+	start = int(elements[0])
+	buses = [int(bus) for bus in elements[1].split(',') if bus != 'x']
+	
 	waits = [(bus, bus - (start % bus)) for bus in buses]
-
 	target_bus = min(waits, key=lambda x: x[1])
 
 	return target_bus[0] * target_bus[1]

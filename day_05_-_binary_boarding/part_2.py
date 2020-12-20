@@ -7,14 +7,14 @@ def solution(elements):
 	open_seats = available - claimed
 
 	seat = [seat for seat in open_seats
-				if seat + 1 not in open_seats and seat - 1 not in open_seats][0]
+				if seat + 1 not in open_seats and seat - 1 not in open_seats]
 
-	return seat
+	return seat[0]
 
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = f.readlines()
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

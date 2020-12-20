@@ -1,7 +1,7 @@
 class console:
-	def __init__(self, puzzle_input):
+	def __init__(self, inputs):
 		self.acc = 0
-		self.prog = [(line.split(' ')[0], int(line.split(' ')[1])) for line in puzzle_input]
+		self.prog = [(line.split(' ')[0], int(line.split(' ')[1])) for line in inputs]
 		self.eip = 0
 		self.executed_insts = set()
 
@@ -19,15 +19,15 @@ class console:
 			else:
 				raise ValueError(f'Invalid op code: [{self.eip}] {self.prog}')
 
-def solution(inputs):
-	cons = console(inputs)
+def solution(elements):
+	cons = console(elements)
 	cons.run()
 	return cons.acc
 
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = f.read().strip().splitlines()
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()

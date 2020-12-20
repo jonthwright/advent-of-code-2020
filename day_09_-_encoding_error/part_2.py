@@ -6,31 +6,31 @@ def valid_number(window, number):
 	return False
 
 
-def find_wrong(inputs, window_size):
-	window = inputs[:window_size]
-	for i, number in enumerate(inputs[window_size:], 1):
+def find_wrong(elements, window_size):
+	window = elements[:window_size]
+	for i, number in enumerate(elements[window_size:], 1):
 		if not valid_number(window, number): 
 			return number
-		window = inputs[i:window_size + i]
+		window = elements[i:window_size + i]
 	return False
 
-def solution(inputs):
+def solution(elements):
 	WIN_SIZE = 25
-	wrong = find_wrong(inputs, WIN_SIZE)
+	wrong = find_wrong(elements, WIN_SIZE)
 	
-	for size in range(2, len(inputs)):
-		window = inputs[:size]
+	for size in range(2, len(elements)):
+		window = elements[:size]
 
-		for i in range(1, len(inputs) - size):
+		for i in range(1, len(elements) - size):
 			if sum(window) == wrong: 
 				return min(window) + max(window)
-			window = inputs[i:size + i]
+			window = elements[i:size + i]
 	return False
 
 def main():
 	with open('input_file.txt', 'r') as f:
 		inputs = [int(e) for e in f.read().strip().splitlines()]
-	print(solution(inputs))
+	print(f'Answer : {solution(inputs)}')
 
 if __name__ == '__main__':
 	main()
