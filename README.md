@@ -15,4 +15,4 @@ Advent of Code 2020 in Python
 | 10 | [Click here](../master/day_10_-_adapter_array/part_1.py) | [Click here](../master/day_10_-_adapter_array/part_2.py) |
 | 11 | [Click here](../master/day_11_-_seating_system/part_1.py) | [Click here](../master/day_11_-_seating_system/part_2.py) |
 | 12 | [Click here](../master/day_12_-_rain_risk/part_1.py) | [Click here](../master/day_12_-_rain_risk/part_2.py) |
-| 13 | [Click here] | [Click here] |
+| 13 | [Click here](../master/day_13_-_shuttle_search/part_1.py) | [Click here] |
