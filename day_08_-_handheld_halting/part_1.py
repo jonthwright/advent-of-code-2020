@@ -26,7 +26,7 @@ def solution(inputs):
 
 def main():
 	with open('input_file.txt', 'r') as f:
-		inputs = f.read().strip().split('\n')
+		inputs = f.read().strip().splitlines()
 	print(solution(inputs))
 
 if __name__ == '__main__':
