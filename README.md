@@ -1,6 +1,7 @@
 # advent-of-code-2020
 Advent of Code 2020 in Python
 
+| Completed Puzzles |
 | Day \# | Part 1 | Part 2|
 | --- | --- | --- |
 | 1 | [Click here](../master/day_01_-_report_repair/part_1.py) | [Click here](../master/day_01_-_report_repair/part_2.py) |
