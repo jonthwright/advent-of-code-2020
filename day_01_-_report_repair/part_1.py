@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(elements):
 	complements = {}
 	
@@ -7,10 +9,7 @@ def solution(elements):
 			return elem * comp
 	return -1
 
-def main():
+if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [int(line) for line in f.readlines()]
 	print(f'Answer : {solution(inputs)}')
-
-if __name__ == '__main__':
-	main()

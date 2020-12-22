@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def valid_number(window, number):
 	for n in window:
 		dif = abs(number - n)
@@ -27,10 +29,7 @@ def solution(elements):
 			window = elements[i:size + i]
 	return False
 
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = [int(e) for e in f.read().strip().splitlines()]
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [int(e.strip('\n')) for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

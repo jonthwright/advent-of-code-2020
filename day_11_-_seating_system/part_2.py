@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(chairs):
 	row, col = len(chairs), len(chairs[0])
 	neighbours = [(r,c) for c in range(-1, 2) for r in range(-1, 2) if not (r == 0 and c == 0)]
@@ -35,10 +37,7 @@ def solution(chairs):
 
 	return sum(sum(chairs[r][c] == "#" for c in range(col)) for r in range(row))
 
-def main():	
-	with open('input_file.txt', 'r') as f:
-		inputs = [e for e in f.read().strip().splitlines()]
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

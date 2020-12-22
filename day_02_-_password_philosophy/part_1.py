@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 
 def solution(elements):
@@ -19,11 +21,8 @@ def process_inputs(inputs):
 		output.append((int(regex.group(1)), int(regex.group(2)), regex.group(3), regex.group(4)))
 	return output
 
-def main():
+if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = f.readlines()
 	processed = process_inputs(inputs)
 	print(f'Answer : {solution(processed)}')
-
-if __name__ == '__main__':
-	main()

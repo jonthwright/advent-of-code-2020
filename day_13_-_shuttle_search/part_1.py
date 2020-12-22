@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(elements):
 	start = int(elements[0])
 	buses = [int(bus) for bus in elements[1].split(',') if bus != 'x']
@@ -7,10 +9,7 @@ def solution(elements):
 
 	return target_bus[0] * target_bus[1]
 
-def main():	
-	with open('input_file.txt', 'r') as f:
-		inputs = [e for e in f.read().strip().splitlines()]
-	print(solution(inputs))
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

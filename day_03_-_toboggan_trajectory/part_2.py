@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(elements):
 	total = 1
 	for change_col, change_row in [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]:
@@ -12,14 +14,7 @@ def solution(elements):
 
 	return total
 
-def process_inputs(inputs):
-	return [list(inp.strip()) for inp in inputs]
-
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = f.readlines()
-	processed = process_inputs(inputs)
-	print(f'Answer : {solution(processed)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import string
 
 def solution(elements):
@@ -10,10 +12,7 @@ def solution(elements):
 	
 	return count
 
-def main():
+if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = f.read().split('\n\n')
 	print(f'Answer : {solution(inputs)}')
-
-if __name__ == '__main__':
-	main()

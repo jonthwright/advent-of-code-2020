@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(elements):
 	elements.sort()
 	
@@ -17,10 +19,7 @@ def solution(elements):
 				return elements[i] * elements[l] * elements[r]
 	return -1
 
-def main():
+if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [int(line) for line in f.readlines()]
 	print(f'Answer : {solution(inputs)}')
-
-if __name__ == '__main__':
-	main()

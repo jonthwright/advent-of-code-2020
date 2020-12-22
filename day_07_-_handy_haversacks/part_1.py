@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 
 def has_shiny_gold(colour, bags):
@@ -18,10 +20,7 @@ def solution(inputs):
 
 	return bag_count - 1
 
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = f.readlines()
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

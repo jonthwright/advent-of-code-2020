@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 
 def count_bags(bag_type, bags):
@@ -12,10 +14,7 @@ def solution(inputs):
 
 	return count_bags("shiny gold", bags) - 1
 
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = f.readlines()
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

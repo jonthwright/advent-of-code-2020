@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from collections import Counter
 
 def solution(elements):
@@ -12,10 +14,7 @@ def solution(elements):
 
 	return dp[jolts[-1]]
 
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = [int(e) for e in f.read().strip().splitlines()]
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [int(e.strip('\n')) for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

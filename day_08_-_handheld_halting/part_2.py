@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 class console:
 	def __init__(self, inputs):
 		self.acc = 0
@@ -39,10 +41,7 @@ def solution(elements):
 		if cons.run() == 0:
 			return cons.acc
 
-def main():
-	with open('input_file.txt', 'r') as f:
-		inputs = f.read().strip().splitlines()
-	print(f'Answer : {solution(inputs)}')
-
 if __name__ == '__main__':
-	main()
+	with open('input_file.txt', 'r') as f:
+		inputs = [e.strip('\n') for e in f.readlines()]
+	print(f'Answer : {solution(inputs)}')

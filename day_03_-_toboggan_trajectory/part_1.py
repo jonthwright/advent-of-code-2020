@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def solution(elements):
 	slopeX, slopeY = 3, 1
 	col = 0
@@ -9,14 +11,7 @@ def solution(elements):
 
 	return trees
 
-def process_inputs(inputs):
-	return [list(inp.strip()) for inp in inputs]
-
-def main():
+if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = f.readlines()
-	processed = process_inputs(inputs)
-	print(f'Answer : {solution(processed)}')
-
-if __name__ == '__main__':
-	main()
+	print(f'Answer : {solution(inputs)}')
