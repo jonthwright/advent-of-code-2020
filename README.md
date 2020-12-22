@@ -19,13 +19,13 @@ Coded primarily in Python.
 | **10** | [*Adapter Array*](https://adventofcode.com/2020/day/10) | [Click here](../master/day_10_-_adapter_array/part_1.py) | [Click here](../master/day_10_-_adapter_array/part_2.py) |
 | **11** | [*Seating System*](https://adventofcode.com/2020/day/11) | [Click here](../master/day_11_-_seating_system/part_1.py) | [Click here](../master/day_11_-_seating_system/part_2.py) |
 | **12** | [*Rain Risk*](https://adventofcode.com/2020/day/12) | [Click here](../master/day_12_-_rain_risk/part_1.py) | [Click here](../master/day_12_-_rain_risk/part_2.py) |
-| **13** | [*Shuttle Search*](https://adventofcode.com/2020/day/13) | [Click here](../master/day_13_-_shuttle_search/part_1.py) | [Click here]<!--(../master/day_13_-_shuttle_search/part_2.py)--> |
-| **14** | *...* | [Click here] | [Click here] |
-| **15** | *...* | [Click here] | [Click here] |
-| **16** | *...* | [Click here] | [Click here] |
-| **17** | *...* | [Click here] | [Click here] |
-| **18** | *...* | [Click here] | [Click here] |
-| **19** | *...* | [Click here] | [Click here] |
+| **13** | [*Shuttle Search*](https://adventofcode.com/2020/day/13) | [Click here](../master/day_13_-_shuttle_search/part_1.py) | [Click here](../master/day_13_-_shuttle_search/part_2.py) |
+| **14** | [*Docking Data*](https://adventofcode.com/2020/day/14) | [Click here](../master/day_14_-_docking_data/part_1.py) | [Click here](../master/day_14_-_docking_data/part_2.py) |
+| **15** | [*Rambunctious Recitation*](https://adventofcode.com/2020/day/15) | [Click here](../master/day_15_-_rambunctious_recitation/part_1.py) | [Click here](../master/day_15_-_rambunctious_recitation/part_2.py) |
+| **16** | [*Ticket Translation*](https://adventofcode.com/2020/day/16) | [Click here](../master/day_16_-_ticket_translation/part_1.py) | [Click here](../master/day_16_-_ticket_translation/part_2.py) |
+| **17** | [*Conway Cubes*](https://adventofcode.com/2020/day/17) | [Click here](../master/day_17_-_conway_cubes/part_1.py) | [Click here](../master/day_17_-_conway_cubes/part_2.py) |
+| **18** | [*Operation Order*](https://adventofcode.com/2020/day/18) | [Click here](../master/day_18_-_monster_messages/part_1.py) | [Click here](../master/day_18_-_monster_messages/part_2.py) |
+| **19** | [*Monster Messages*](https://adventofcode.com/2020/day/19) | [Click here] | [Click here] |
 | **20** | *...* | [Click here] | [Click here] |
 | **21** | *...* | [Click here] | [Click here] |
 | **22** | *...* | [Click here] | [Click here] |
