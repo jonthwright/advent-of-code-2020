@@ -26,11 +26,11 @@ Coded primarily in Python.
 | **17** | [*Conway Cubes*](https://adventofcode.com/2020/day/17) | [Click here](../master/day_17_-_conway_cubes/part_1.py) | [Click here](../master/day_17_-_conway_cubes/part_2.py) |
 | **18** | [*Operation Order*](https://adventofcode.com/2020/day/18) | [Click here](../master/day_18_-_operation_order/part_1.py) | [Click here](../master/day_18_-_operation_order/part_2.py) |
 | **19** | [*Monster Messages*](https://adventofcode.com/2020/day/19) | [Click here](../master/day_19_-_monster_messages/part_1.py) | [Click here](../master/day_19_-_monster_messages/part_2.py) |
-| **20** | [*Jurrasic Jigsaw*](https://adventofcode.com/2020/day/20) | [Click here] | [Click here] |
+| **20** | [*Jurrasic Jigsaw*](https://adventofcode.com/2020/day/20) | [Click here](../master/day_20_-_jurrasic_jigsaw/part_1.py) | [Click here](../master/day_20_-_jurrasic_jigsaw/part_2.py) |
 | **21** | [*Allergen Assessment*](https://adventofcode.com/2020/day/21) | [Click here](../master/day_21_-_allergen_assessment/part_1.py) | [Click here](../master/day_21_-_allergen_assessment/part_2.py) |
 | **22** | [*Crab Combat*](https://adventofcode.com/2020/day/22) | [Click here](../master/day_22_-_crab_combat/part_1.py) | [Click here](../master/day_22_-_crab_combat/part_2.py) |
+| **23** | [*...*] | [Click here] | [Click here] |
 
-<!-- | **23** | *...* | [Click here] | [Click here] | -->
 <!-- | **24** | *...* | [Click here] | [Click here] | -->
 <!-- | **25** | *...* | [Click here] | [Click here] | -->
 
