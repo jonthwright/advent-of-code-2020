@@ -32,3 +32,6 @@ Coded primarily in Python.
 | **23** | *...* | [Click here] | [Click here] |
 | **24** | *...* | [Click here] | [Click here] |
 | **25** | *...* | [Click here] | [Click here] |
+
+# Map
+![](../master/map.png?raw=true)
