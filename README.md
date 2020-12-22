@@ -24,7 +24,7 @@ Coded primarily in Python.
 | **15** | [*Rambunctious Recitation*](https://adventofcode.com/2020/day/15) | [Click here](../master/day_15_-_rambunctious_recitation/part_1.py) | [Click here](../master/day_15_-_rambunctious_recitation/part_2.py) |
 | **16** | [*Ticket Translation*](https://adventofcode.com/2020/day/16) | [Click here](../master/day_16_-_ticket_translation/part_1.py) | [Click here](../master/day_16_-_ticket_translation/part_2.py) |
 | **17** | [*Conway Cubes*](https://adventofcode.com/2020/day/17) | [Click here](../master/day_17_-_conway_cubes/part_1.py) | [Click here](../master/day_17_-_conway_cubes/part_2.py) |
-| **18** | [*Operation Order*](https://adventofcode.com/2020/day/18) | [Click here](../master/day_18_-_monster_messages/part_1.py) | [Click here](../master/day_18_-_monster_messages/part_2.py) |
+| **18** | [*Operation Order*](https://adventofcode.com/2020/day/18) | [Click here](../master/day_18_-_operation_order/part_1.py) | [Click here](../master/day_18_-_operation_order/part_2.py) |
 | **19** | [*Monster Messages*](https://adventofcode.com/2020/day/19) | [Click here] | [Click here] |
 | **20** | *...* | [Click here] | [Click here] |
 | **21** | *...* | [Click here] | [Click here] |
