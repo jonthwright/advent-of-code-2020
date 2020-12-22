@@ -29,4 +29,5 @@ def solution(elements):
 if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [e.strip('\n') for e in f.readlines()]
-	print(f'Answer : {solution(inputs)}')
+	print('Day 08 : Handheld Halting - part 1')
+	print(f'>>> Answer : {solution(inputs)}')

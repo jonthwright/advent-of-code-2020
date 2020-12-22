@@ -24,4 +24,5 @@ def solution(elements):
 if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [x.split('\n') for x in f.read().split('\n\n')]
-	print(f'Answer : {solution(inputs)}')
+	print('Day 16 : Ticket Translation - part 1')
+	print(f'>>> Answer : {solution(inputs)}')

@@ -22,4 +22,5 @@ def solution(elements):
 
 if __name__ == '__main__':
 	inputs = [0, 12, 6, 13, 20, 1, 17]
-	print(f'Answer : {solution(inputs)}')
+	print('Day 15 : Rambunctious Recitation - part 2')
+	print(f'>>> Answer : {solution(inputs)}')

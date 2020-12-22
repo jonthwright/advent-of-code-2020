@@ -44,4 +44,5 @@ def solution(elements):
 if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [[int(line) for line in lines.splitlines() if line.isnumeric()] for lines in f.read().split('\n\n')]
-	print(f'Answer : {solution(inputs)}')
+	print('Day 22 : Combat Crab - part 2')
+	print(f'>>> Answer : {solution(inputs)}')

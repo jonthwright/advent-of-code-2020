@@ -41,4 +41,5 @@ def solution(elements):
 if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = [line.strip('\n') for line in f.readlines()]
-	print(f'Answer : {solution(inputs)}')
+	print('Day 21 : Allergen Assessment - part 2')
+	print(f'>>> Answer : {solution(inputs)}')

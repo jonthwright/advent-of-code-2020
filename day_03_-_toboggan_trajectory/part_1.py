@@ -14,4 +14,5 @@ def solution(elements):
 if __name__ == '__main__':
 	with open('input_file.txt', 'r') as f:
 		inputs = f.readlines()
-	print(f'Answer : {solution(inputs)}')
+	print('Day 03 : Toboggan Trajectory - part 1')
+	print(f'>>> Answer : {solution(inputs)}')
