@@ -29,9 +29,9 @@ Coded primarily in Python.
 | **20** | [*Jurrasic Jigsaw*](https://adventofcode.com/2020/day/20) | [Click here](../master/day_20_-_jurrasic_jigsaw/part_1.py) | [Click here](../master/day_20_-_jurrasic_jigsaw/part_2.py) |
 | **21** | [*Allergen Assessment*](https://adventofcode.com/2020/day/21) | [Click here](../master/day_21_-_allergen_assessment/part_1.py) | [Click here](../master/day_21_-_allergen_assessment/part_2.py) |
 | **22** | [*Crab Combat*](https://adventofcode.com/2020/day/22) | [Click here](../master/day_22_-_crab_combat/part_1.py) | [Click here](../master/day_22_-_crab_combat/part_2.py) |
-| **23** | [*...*] | [Click here] | [Click here] |
+| **23** | [*Crab Cups*](https://adventofcode.com/2020/day/23) | [Click here](../master/day_22_-_crab_cups/part_1.py) | [Click here](../master/day_22_-_crab_cups/part_2.py) |
+| **24** | *...* | [Click here] | [Click here] |
 
-<!-- | **24** | *...* | [Click here] | [Click here] | -->
 <!-- | **25** | *...* | [Click here] | [Click here] | -->
 
 # Map
