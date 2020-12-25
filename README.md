@@ -1,7 +1,7 @@
 # advent-of-code-2020
 Advent of Code 2020. 
 
-Coded primarily in Python.
+Coded primarily in Python (works best using version 3.8+).
 
 # Quick links to Solutions
 
@@ -30,9 +30,8 @@ Coded primarily in Python.
 | **21** | [*Allergen Assessment*](https://adventofcode.com/2020/day/21) | [Click here](./day_21_-_allergen_assessment/part_1.py) | [Click here](./day_21_-_allergen_assessment/part_2.py) |
 | **22** | [*Crab Combat*](https://adventofcode.com/2020/day/22) | [Click here](./day_22_-_crab_combat/part_1.py) | [Click here](./day_22_-_crab_combat/part_2.py) |
 | **23** | [*Crab Cups*](https://adventofcode.com/2020/day/23) | [Click here](./day_23_-_crab_cups/part_1.py) | [Click here](./day_23_-_crab_cups/part_2.py) |
-| **24** | [*Lobby Layout*](https://adventofcode.com/2020/day/24) | [Click here] | [Click here] |
-
-<!-- | **25 (end)** | *...* | [Click here] | [Click here] | -->
+| **24** | [*Lobby Layout*](https://adventofcode.com/2020/day/24) | [Click here](./day_24_-_lobby_layout/part_1.py) | [Click here](./day_24_-_lobby_layout/part_2.py) |
+| **25 (end)** | [*Combo Breaker*](https://adventofcode.com/2020/day/25) | [Click here](./day_25_-_combo_breaker/part_1.py) | [Click here](./day_25_-_combo_breaker/part_2.py) |
 
 # Map
 ![](./map.png?raw=true)
