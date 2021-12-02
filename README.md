@@ -3,7 +3,7 @@ Advent of Code 2020.
 
 Coded primarily in Python (works best using version 3.8+).
 
-# Quick links to Solutions
+# Links to Solutions
 
 | *Day #* | Puzzle | Part 1 | Part 2 |
 | :-----: | :----: | :----: | :----: |
