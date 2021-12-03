@@ -7,15 +7,15 @@ Coded primarily in Python (works best using version 3.8+).
 
 | *Day #* | Puzzle | Part 1 | Part 2 |
 | :-----: | :----: | :----: | :----: |
-| **1**  | [*Report Repair*](https://adventofcode.com/2020/day/1) | [Click here](./day_01_-_report_repair/part_1.py) | [Click here](./day_01_-_report_repair/part_2.py) |
-| **2**  | [*Password Philosophy*](https://adventofcode.com/2020/day/2) | [Click here](./day_02_-_password_philosophy/part_1.py) | [Click here](./day_02_-_password_philosophy/part_2.py) |
-| **3**  | [*Toboggan Trajectory*](https://adventofcode.com/2020/day/3) | [Click here](./day_03_-_toboggan_trajectory/part_1.py) | [Click here](./day_03_-_toboggan_trajectory/part_2.py) |
-| **4**  | [*Password Processing*](https://adventofcode.com/2020/day/4) | [Click here](./day_04_-_passport_processing/part_1.py) | [Click here](./day_04_-_passport_processing/part_2.py) |
-| **5**  | [*Binary Boarding*](https://adventofcode.com/2020/day/5) | [Click here](./day_05_-_binary_boarding/part_1.py) | [Click here](./day_05_-_binary_boarding/part_2.py) |
-| **6**  | [*Custom Customs*](https://adventofcode.com/2020/day/6) | [Click here](./day_06_-_custom_customs/part_1.py) | [Click here](./day_06_-_custom_customs/part_2.py) |
-| **7**  | [*Handy Haversacks*](https://adventofcode.com/2020/day/7) | [Click here](./day_07_-_handy_haversacks/part_1.py) | [Click here](./day_07_-_handy_haversacks/part_2.py) |
-| **8**  | [*Handheld Halting*](https://adventofcode.com/2020/day/8) | [Click here](./day_08_-_handheld_halting/part_1.py) | [Click here](./day_08_-_handheld_halting/part_2.py) |
-| **9**  | [*Encoding Error*](https://adventofcode.com/2020/day/9) | [Click here](./day_09_-_encoding_error/part_1.py) | [Click here](./day_09_-_encoding_error/part_2.py) |
+| **01**  | [*Report Repair*](https://adventofcode.com/2020/day/1) | [Click here](./day_01_-_report_repair/part_1.py) | [Click here](./day_01_-_report_repair/part_2.py) |
+| **02**  | [*Password Philosophy*](https://adventofcode.com/2020/day/2) | [Click here](./day_02_-_password_philosophy/part_1.py) | [Click here](./day_02_-_password_philosophy/part_2.py) |
+| **03**  | [*Toboggan Trajectory*](https://adventofcode.com/2020/day/3) | [Click here](./day_03_-_toboggan_trajectory/part_1.py) | [Click here](./day_03_-_toboggan_trajectory/part_2.py) |
+| **04**  | [*Password Processing*](https://adventofcode.com/2020/day/4) | [Click here](./day_04_-_passport_processing/part_1.py) | [Click here](./day_04_-_passport_processing/part_2.py) |
+| **05**  | [*Binary Boarding*](https://adventofcode.com/2020/day/5) | [Click here](./day_05_-_binary_boarding/part_1.py) | [Click here](./day_05_-_binary_boarding/part_2.py) |
+| **06**  | [*Custom Customs*](https://adventofcode.com/2020/day/6) | [Click here](./day_06_-_custom_customs/part_1.py) | [Click here](./day_06_-_custom_customs/part_2.py) |
+| **07**  | [*Handy Haversacks*](https://adventofcode.com/2020/day/7) | [Click here](./day_07_-_handy_haversacks/part_1.py) | [Click here](./day_07_-_handy_haversacks/part_2.py) |
+| **08**  | [*Handheld Halting*](https://adventofcode.com/2020/day/8) | [Click here](./day_08_-_handheld_halting/part_1.py) | [Click here](./day_08_-_handheld_halting/part_2.py) |
+| **09**  | [*Encoding Error*](https://adventofcode.com/2020/day/9) | [Click here](./day_09_-_encoding_error/part_1.py) | [Click here](./day_09_-_encoding_error/part_2.py) |
 | **10** | [*Adapter Array*](https://adventofcode.com/2020/day/10) | [Click here](./day_10_-_adapter_array/part_1.py) | [Click here](./day_10_-_adapter_array/part_2.py) |
 | **11** | [*Seating System*](https://adventofcode.com/2020/day/11) | [Click here](./day_11_-_seating_system/part_1.py) | [Click here](./day_11_-_seating_system/part_2.py) |
 | **12** | [*Rain Risk*](https://adventofcode.com/2020/day/12) | [Click here](./day_12_-_rain_risk/part_1.py) | [Click here](./day_12_-_rain_risk/part_2.py) |
