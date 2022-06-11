@@ -1,1 +1,1 @@
-created before create both dummy branches
+created (and now edited after "branch-to-rebase" branch was created and before "rebase-target" was created) before create both dummy branches
